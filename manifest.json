@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Screenshot and Image Editor",
+  "version": "1.0",
+  "description": "A Chrome extension that allows you to take screenshots and edit images.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "Screenshot and Image Editor",
+    "default_popup": "popup.html"
+  }
+}
